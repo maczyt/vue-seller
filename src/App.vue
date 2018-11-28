@@ -10,12 +10,20 @@ export default {
 };
 </script>
 
-<style>
+<style lang="postcss">
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 100vw;
   height: 100vh;
+}
+.clearfix {
+  &:after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+  }
 }
 </style>

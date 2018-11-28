@@ -29,6 +29,7 @@ module.exports = {
     'comma-dangle': 0,
     'quotes': 0,
     'no-trailing-spaces': 0,
+    'linebreak-style': 0,
     // don't require .vue extension when importing
     'import/extensions': ['error', 'always', {
       js: 'never',

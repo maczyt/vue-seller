@@ -5,6 +5,8 @@ module.exports = {
     "postcss-import": {},
     "postcss-url": {},
     // to edit target browsers: use "browserslist" field in package.json
+    "postcss-nested": {},
+    "postcss-mixins": {},
     "postcss-cssnext": {},
     "postcss-px-to-viewport": {
       viewportWidth: 750, // (Number) The width of the viewport. 
