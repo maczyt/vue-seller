@@ -27,10 +27,13 @@ module.exports = {
   rules: {
     'semi': 0,
     'comma-dangle': 0,
+    'quotes': 0,
+    'no-trailing-spaces': 0,
     // don't require .vue extension when importing
     'import/extensions': ['error', 'always', {
       js: 'never',
-      vue: 'never'
+      vue: 'never',
+      css: 'never'
     }],
     // disallow reassignment of function parameters
     // disallow parameter object manipulation except for specific exclusions

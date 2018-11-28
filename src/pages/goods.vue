@@ -1,5 +1,7 @@
 <template>
-  <div class="page-goods"></div>  
+  <div class="page-goods">
+    
+  </div>  
 </template>
 
 <script>
