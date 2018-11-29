@@ -16,6 +16,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   width: 100vw;
   height: 100vh;
+  overflow-x: hidden;
 }
 .clearfix {
   &:after {
@@ -25,5 +26,8 @@ export default {
     height: 0;
     clear: both;
   }
+}
+.icon {
+  display: inline-block;
 }
 </style>
