@@ -21,8 +21,13 @@
           <div class="goods-seller__activity--info">
             粥品香坊粥品香坊粥品香坊粥品香坊粥品香坊粥品香坊粥品香坊粥品香坊粥品香坊 
           </div>
+          <i class="iconfont icon-keyboard_arrow_right" />
         </div>
       </div>
+    </div>
+
+    <div class="page-goods__navs">
+      <div class=""></div>
     </div>
   </div>  
 </template>
@@ -119,6 +124,12 @@ export default {};
           white-space: nowrap;
           overflow: hidden;
           text-overflow: ellipsis;
+        }
+        .iconfont {
+          position: absolute;
+          right: 24px;
+          top: 50%;
+          transform: translateY(-50%);
         }
       }
     }

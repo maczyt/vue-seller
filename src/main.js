@@ -1,5 +1,6 @@
 import 'modern-normalize';
 import Vue from 'vue';
+import '@/assets/font/icon/iconfont.css';
 import App from './App';
 import router from './router';
 
