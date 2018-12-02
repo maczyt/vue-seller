@@ -32,7 +32,7 @@ export default {
     touchMove(event) {
       const touch = event.touches[0];
       this.deltaX = touch.clientX - this.startX;
-      this.deltaY = touch.clientY = this.startY;
+      this.deltaY = touch.clientY - this.startY;
       this.offsetX = Math.abs(this.deltaX);
       this.offsetY = Math.abs(this.deltaY);
       this.direction = this.direction || getDirection(this.offsetX, this.offsetY);

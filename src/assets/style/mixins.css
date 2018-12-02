@@ -1,8 +1,8 @@
 @define-mixin image $url {
-  background-image: url('/static/img/$url@2x.png');
+  background-image: url('/vue-seller/static/img/$url@2x.png');
   background-repeat: no-repeat;
 
   @media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
-    background-image: url('/static/img/$url@3x.png');
+    background-image: url('/vue-seller/static/img/$url@3x.png');
   }
 }

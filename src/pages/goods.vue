@@ -27,16 +27,15 @@
     </div>
 
     <div class="page-goods__navs">
-      <div class=""></div>
       <tabs>
         <tab title="商品">
           This is 商品
         </tab>
         <tab title="评价">
-          This is 商品
+          This is 评价
         </tab>
         <tab title="商家">
-          This is 商品
+          This is 商家
         </tab>
       </tabs>
     </div>
@@ -58,6 +57,10 @@ export default {
 <style lang="postcss" scoped>
 @import url("../assets/style/mixins.css");
 .page-goods {
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
   &__header {
     background-color: rgba(7, 17, 27, 0.5);
     padding-top: 48px;
@@ -152,6 +155,9 @@ export default {
         }
       }
     }
+  }
+  &__navs {
+    flex: 1;
   }
 }
 </style>
