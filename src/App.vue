@@ -18,6 +18,12 @@ export default {
   height: 100vh;
   overflow-x: hidden;
 }
+* {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
 .clearfix {
   &:after {
     content: "";
