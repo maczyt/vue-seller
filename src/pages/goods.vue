@@ -28,12 +28,31 @@
 
     <div class="page-goods__navs">
       <div class=""></div>
+      <tabs>
+        <tab title="商品">
+          This is 商品
+        </tab>
+        <tab title="评价">
+          This is 商品
+        </tab>
+        <tab title="商家">
+          This is 商品
+        </tab>
+      </tabs>
     </div>
   </div>  
 </template>
 
 <script>
-export default {};
+import tabs from "@/components/tabs/tabs";
+import tab from "@/components/tabs/tab";
+
+export default {
+  components: {
+    tabs,
+    tab
+  }
+};
 </script>
 
 <style lang="postcss" scoped>
